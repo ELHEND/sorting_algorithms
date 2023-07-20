@@ -67,8 +67,7 @@ int hoare_partition(int *array, size_t size, int left, int right)
  *    * @size:  size of the array.
  *     * @left: starting index of the array partition to order.
  *      * @right: The ending index of the array partition to order.
- *       *
- *        * Description: Uses the Hoare partition scheme.
+ *       * Description: Uses the Hoare partition scheme.
  */
 
 void hoare_sort(int *array, size_t size, int left, int right)
