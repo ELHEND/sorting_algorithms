@@ -84,8 +84,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
  *   *              order using the quicksort algorithm.
  *    * @array: An array of integers.
  *     * @size: size of the array.
- *      *
- *       * Description: The algorithm utilizes the Lomuto partition scheme
+ *      * Description: The algorithm utilizes the Lomuto partition scheme
  *       * and outputs the array after every swap of two elements.
  */
 
