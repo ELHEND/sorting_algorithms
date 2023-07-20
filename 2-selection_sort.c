@@ -8,6 +8,7 @@
 void swap_ints(int *a, int *b)
 {
 	int tmp;
+
 	tmp = *a;
 	*a = *b;
 	*b = tmp;
@@ -24,6 +25,7 @@ void selection_sort(int *array, size_t size)
 {
 	int *min;
 	size_t i, k;
+
 	if (array == NULL || size < 2)
 		return;
 	for (i = 0; i < size - 1; i++)
