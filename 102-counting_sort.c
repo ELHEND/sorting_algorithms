@@ -10,12 +10,12 @@
 
 int get_max(int *array, int size)
 {
-	int max, i;
+	int max, m;
 
-	for (max = array[0], i = 1; i < size; i++)
+	for (max = array[0], m = 1; m < size; m++)
 	{
-		if (array[i] > max)
-			max = array[i];
+		if (array[m] > max)
+			max = array[m];
 	}
 
 	return (max);
@@ -24,8 +24,8 @@ int get_max(int *array, int size)
 /**
  *  * counting_sort - Sort an array of integers in ascending order
  *   *                 using the counting sort algorithm.
- *    * @array: An array of integers.
- *     * @size: The size of the array.
+ *    * @array: array of integers.
+ *     * @size: size of the array.
  *      *
  *       * Description: Prints the counting array after setting it up.
  */
