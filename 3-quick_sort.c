@@ -8,6 +8,7 @@ int lomuto_partition(int *array, size_t size, int left, int right);
 /**
  *  * swap_ints - Swap two integers in an array.
  *   * @a: first integer to swap.
+ *
  *    * @b:  second integer to swap.
  */
 
