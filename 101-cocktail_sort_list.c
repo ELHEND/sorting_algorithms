@@ -10,6 +10,7 @@ void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
  *   *                   list of integers with the node ahead of it.
  *    * @list: A pointer to the head of a doubly-linked list of integers.
  *     * @tail: A pointer to the tail of the doubly-linked list.
+ *
  *      * @shaker: A pointer to the current
  *      *swapping node of the cocktail shaker algo.
  */
