@@ -65,6 +65,7 @@ int hoare_partition(int *array, size_t size, int left, int right)
  *  * hoare_sort - Implement the quicksort algorithm through recursion.
  *   * @array: An array of integers to sort.
  *    * @size:  size of the array.
+ *
  *     * @left: starting index of the array partition to order.
  *      * @right: The ending index of the array partition to order.
  *       * Description: Uses the Hoare partition scheme.
