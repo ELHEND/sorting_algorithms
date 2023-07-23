@@ -60,6 +60,7 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
  *
  *     block of the building bitonic sequence.
  *      * @seq: The size of a block of the building bitonic sequence.
+ *
  *       * @flow:  direction to sort the bitonic sequence block in.
  */
 
