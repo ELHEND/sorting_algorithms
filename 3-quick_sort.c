@@ -10,6 +10,7 @@ int lomuto_partition(int *array, size_t size, int left, int right);
  *   * @a: first integer to swap.
  *
  *    * @b:  second integer to swap.
+ *
  */
 
 void swap_ints(int *a, int *b)
