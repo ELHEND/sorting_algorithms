@@ -68,6 +68,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
  *
  *     * @left: starting index of the array partition to order.
  *      * @right: ending index of the array partition to order.
+ *      
  *       * Description: Uses  Lomuto partition scheme.
  */
 
