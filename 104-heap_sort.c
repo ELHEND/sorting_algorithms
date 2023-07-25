@@ -9,7 +9,7 @@ void max_heapify(int *array, size_t size, size_t base, size_t root);
  *  *  * swap_ints - Swap two integers in an array.
  *   *    * @b: The second integer to swap.
  *    *   * @a: The first integer to swap.
- *     */
+ */
 
 void swap_ints(int *a, int *b)
 {
